@@ -1,0 +1,24 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "WallTiles.tsx": {
+            "dynamicWrapping": false
+        }
+    },
+    "last.imagePath": "C:/Users/Engineer8/Documents/GitHub/TSA-Video-Game/Graphics/tiles",
+    "map.height": 9,
+    "map.lastUsedFormat": "json",
+    "map.width": 7,
+    "openFiles": [
+    ],
+    "project": "Level1.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
