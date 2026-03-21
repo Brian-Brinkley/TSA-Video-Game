@@ -35,6 +35,7 @@
             "scaleInEditor": 1
         }
     },
+    "last.externalTilesetPath": "C:/Users/Brian Brinkley/Documents/Github/TSA Video Game/Level",
     "last.imagePath": "C:/Users/Engineer8/Documents/GitHub/TSA-Video-Game/Graphics/tiles",
     "map.height": 9,
     "map.lastUsedFormat": "json",
@@ -45,9 +46,9 @@
     ],
     "project": "Level1.tiled-project",
     "recentFiles": [
+        "WallTiles.tsx",
         "Level1.tmx",
         "WallTiles.tsj",
-        "WallTiles.tsx",
         "Level1.json"
     ],
     "tileset.lastUsedFormat": "json"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="7" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
- <tileset firstgid="1" source="WallTiles.tsx"/>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="7" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="11">
+ <tileset firstgid="1" source="WallTiles.json"/>
  <layer id="1" name="Tile Layer 1" width="7" height="9">
   <data encoding="csv">
 1,4,3,19,1,2,7,
@@ -14,4 +14,15 @@
 15,16,16,16,16,16,17
 </data>
  </layer>
+ <objectgroup id="2" name="Collisions">
+  <object id="1" x="0.030303" y="0.0948617" width="223.926" height="17.8748"/>
+  <object id="2" x="0.0869565" y="17.9855" width="6.95652" height="251.029"/>
+  <object id="4" x="217.022" y="18.0208" width="6.97778" height="250.941"/>
+  <object id="5" x="0.125" y="269.063" width="223.75" height="18.875"/>
+  <object id="6" x="185.152" y="77.0606" width="31.6364" height="68.697"/>
+  <object id="7" x="89" y="18.2424" width="45.8485" height="127.727"/>
+  <object id="8" x="57.1212" y="45" width="31.7273" height="197"/>
+  <object id="9" x="88.9394" y="146.01" width="14.0606" height="95.8684"/>
+  <object id="10" x="192" y="18.0057" width="24.9773" height="3.98011"/>
+ </objectgroup>
 </map>
