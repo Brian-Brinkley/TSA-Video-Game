@@ -21,17 +21,137 @@
          "width":7,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Collisions",
+         "objects":[
+                {
+                 "height":17.8748353096179,
+                 "id":1,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":223.926218708827,
+                 "x":0.0303030303030369,
+                 "y":0.0948616600790538
+                }, 
+                {
+                 "height":251.028985507246,
+                 "id":2,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":6.95652173913043,
+                 "x":0.0869565217391304,
+                 "y":17.9855072463768
+                }, 
+                {
+                 "height":250.940782828283,
+                 "id":4,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":6.97777777777773,
+                 "x":217.022222222222,
+                 "y":18.0208333333333
+                }, 
+                {
+                 "height":18.875,
+                 "id":5,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":223.75,
+                 "x":0.125,
+                 "y":269.0625
+                }, 
+                {
+                 "height":68.6969696969697,
+                 "id":6,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":31.6363636363636,
+                 "x":185.151515151515,
+                 "y":77.0606060606061
+                }, 
+                {
+                 "height":127.727272727273,
+                 "id":7,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":45.8484848484848,
+                 "x":89,
+                 "y":18.2424242424242
+                }, 
+                {
+                 "height":197,
+                 "id":8,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":31.7272727272727,
+                 "x":57.1212121212121,
+                 "y":45
+                },
+            
+                {
+                 "height":95.8683712121212,
+                 "id":9,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":14.0606060606061,
+                 "x":88.9393939393939,
+                 "y":146.010416666667
+                }, 
+                {
+                 "height":3.98011363636364,
+                 "id":10,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24.9772727272727,
+                 "x":192,
+                 "y":18.0056818181818
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":2,
- "nextobjectid":1,
+ "nextlayerid":3,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.2",
+ "tiledversion":"1.12.0",
  "tileheight":32,
  "tilesets":[
         {
          "firstgid":1,
-         "source":"WallTiles.tsx"
+         "source":"WallTiles.json"
         }],
  "tilewidth":32,
  "type":"map",
