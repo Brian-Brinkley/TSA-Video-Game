@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule

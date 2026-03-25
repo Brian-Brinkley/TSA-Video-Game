@@ -1,0 +1,1 @@
+em++ -o VideoGame.html src/main.cpp src/sprite.cpp src/jethro.cpp src/timer.cpp -Wall -std=c++14 ./_deps/raylib-src/src/libraylib.a -I _deps/raylib-src/src -I include -I gui -s USE_GLFW=3 -s ASYNCIFY -s FORCE_FILESYSTEM=1 --preload-file graphics --preload-file level --preload-file graphics/tiles

@@ -1,0 +1,21 @@
+# ninja log v7
+4	209	7947685725650330	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	8d38138e3e8ea4fb
+4	209	7947685725650330	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	8d38138e3e8ea4fb
+211	10523	7947685828784875	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	85363563bcdb9ee3
+211	10523	7947685828784875	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	85363563bcdb9ee3
+10524	10708	7947685830655098	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	cc39139314b8e2e5
+10524	10708	7947685830655098	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	cc39139314b8e2e5
+10708	10865	7947685832190776	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	47ffd0d191e28071
+10708	10865	7947685832190776	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	47ffd0d191e28071
+10865	11028	7947685833853392	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	3c37dd8e7b875734
+10865	11028	7947685833853392	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	3c37dd8e7b875734
+11028	11179	7947685835366563	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	2aa694cd7ca626a3
+11028	11179	7947685835366563	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	2aa694cd7ca626a3
+11179	11329	7947685836865991	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f8380fb5af2ee278
+11179	11329	7947685836865991	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f8380fb5af2ee278
+11329	11480	7947685838394999	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	35d58b20279974a1
+11329	11480	7947685838394999	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	35d58b20279974a1
+11481	11694	7947685840465252	CMakeFiles/raylib-populate-complete	923cd216140e4cad
+11481	11694	7947685840465252	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	923cd216140e4cad
+11481	11694	7947685840465252	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	923cd216140e4cad
+11481	11694	7947685840465252	C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	923cd216140e4cad
