@@ -26,7 +26,7 @@ void Jethro::Input() {
 void Jethro::Update(double dt, float speed) {
     Input();
     Move(dt);
-    collisionBox = {position.x, position.y, source.width * scale, (source.height - 3) * scale};
+    collisionBox = {position.x + 6, position.y, (source.width - 6) * scale, (source.height - 3) * scale};
 }
 
 void Jethro::DirectionCheck() {
