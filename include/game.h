@@ -12,8 +12,8 @@ public:
     bool running;
     float zoom = 4.0f;
     float playerScale = 2;
-    bool level1Running = false;
-    bool level2Running = true;
+    bool level1Running = true;
+    bool level2Running = false;
 
     float speed = 300;
 
@@ -125,7 +125,7 @@ private:
         {zoom * 1039, zoom * 600, zoom * 98, zoom * 19},
         {zoom * 1118, zoom * 344, zoom * 19, zoom * 256},
         {zoom * 0, zoom * 344, zoom * 81, zoom * 211},
-        {zoom * 0, zoom * 1, zoom * 1280, zoom * 64},
+        {zoom * 0, zoom * 0, zoom * 1280, zoom * 64},
         {zoom * 0, zoom * 64, zoom * 194, zoom * 75},
         {zoom * 194, zoom * 64, zoom * 344, zoom * 11},
         {zoom * 550, zoom * 64, zoom * 728, zoom * 11},
@@ -172,7 +172,7 @@ private:
         {zoom * 369, zoom * 600, zoom * 320, zoom * 19},
         {zoom * 416, zoom * 568, zoom * 273, zoom * 32},
         {zoom * 367, zoom * 344, zoom * 51, zoom * 160},
-        {zoom * 431, zoom * 344, zoom * 131, zoom * 19},
+        {zoom * 431, zoom * 344, zoom * 130, zoom * 19},
         {zoom * 418, zoom * 376, zoom * 320, zoom * 19},
         {zoom * 544, zoom * 363, zoom * 17, zoom * 13},
         {zoom * 640, zoom * 504, zoom * 48, zoom * 64},

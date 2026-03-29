@@ -3,14 +3,14 @@
 
 int main(){
     InitWindow(GetScreenWidth(), GetScreenHeight(), "Video Game");
-    ToggleFullscreen();
+    //ToggleFullscreen();
 
 
     InitAudioDevice();
     //GuiStartState state = InitGuiStart();
     //GuiLoadStyleAmber();
 
-    SetConfigFlags(FLAG_VSYNC_HINT);
+    SetTargetFPS(60);
     Game game = Game();
 
     while(!WindowShouldClose()){

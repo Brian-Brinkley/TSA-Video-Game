@@ -30,10 +30,10 @@ public:
                         };
 
                         Rectangle dest = {
-                            int(x * tileWidth * scale + offsetX),
-                            int(y * tileHeight * scale + offsetY),
-                            int(tileWidth * scale),
-                            int(tileHeight * scale)
+                            static_cast<float>(int(x * tileWidth * scale + offsetX)),
+                            static_cast<float>(int(y * tileHeight * scale + offsetY)),
+                            static_cast<float>(int(tileWidth * scale)),
+                            static_cast<float>(int(tileHeight * scale))
                         };
                         DrawTexturePro(tileset, source, dest, {0, 0}, 0.0f, WHITE);
                 }

@@ -20,27 +20,32 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level1Collisions, 'y');
             if(CheckCollisionRecs(doorRec, jethro.collisionBox) && IsKeyDown(KEY_E)) {
                 level1Running = false;
+                jethro.position = {16.75f * tileSize * zoom, 2.0f * tileSize * zoom};
                 std::this_thread::sleep_for(std::chrono::milliseconds(1500));
                 level2Running = true;
+                
             }
+        }
         else if(level2Running) {
             if(!musicTimer2.active) {
                 musicTimer2.Activate();
                 PlayMusicStream(music2);
             }
-            
             UpdateMusicStream(music2);
-            //CollisionCheck(level2Collisions, 'x');
-            //CollisionCheck(level2Collisions, 'y');
-            
+            jethro.collisionBox.x += 2 * jethro.scale;
+            jethro.collisionBox.y += 6 * jethro.scale;
+            jethro.collisionBox.width = (jethro.source.width - 12) * jethro.scale;
+            jethro.collisionBox.height = (jethro.source.height - 12) * jethro.scale;
+            CollisionCheck(level2Collisions, 'x');
+            CollisionCheck(level2Collisions, 'y');
         }
-        }
-        if(!Vector2Equals(jethro.directionState, jethro.direction)) {
-            jethro.AnimationCheck();
-            jethro.directionState = jethro.direction;
-        }
-        animationTimer.Update();
+    
+    if(!Vector2Equals(jethro.directionState, jethro.direction)) {
+        jethro.AnimationCheck();
+        jethro.directionState = jethro.direction;
     }
+    animationTimer.Update();
+}
 }
 
 void Game::CollisionCheck(std::vector<Rectangle> collision, char axis) {
@@ -66,26 +71,26 @@ void Game::Draw() {
         BeginMode2D(camera);
         if(level1Running) {
             tileset.DrawTileMap(level1Tileset, level1Data, tileSize, tileSize, tileColumns, zoom);
-        /*for(auto &r : level1Collisions) {
+            /*for(auto &r : level1Collisions) {
                 DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
-            }*/
-        }
-        else if(level2Running) {
-            tileset2.DrawTileMap(level2Tileset, level2Data, tileSize, tileSize, tileColumns2, zoom);
-            for(auto &r : level2Collisions) {
-                DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
+                }*/
             }
-            if(IsKeyDown(KEY_E)) {
-                for(auto &s : level2Collisions) {
-                    if(CheckCollisionRecs(jethro.collisionBox, s)) {
-                        std::cout << s.x / zoom << ", " << s.y / zoom << s.width << s.height << "\n";
+            else if(level2Running) {
+                tileset2.DrawTileMap(level2Tileset, level2Data, tileSize, tileSize, tileColumns2, zoom);
+                for(auto &r : level2Collisions) {
+                    DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
+                }
+                if(IsKeyDown(KEY_E)) {
+                    for(auto &s : level2Collisions) {
+                        if(CheckCollisionRecs(jethro.collisionBox, s)) {
+                            std::cout << s.x / zoom << ", " << s.y / zoom << s.width << s.height << "\n";
+                        }
+                        else std::cout << jethro.collisionBox.x << ", " << jethro.collisionBox.y << " \n";
                     }
-                    else std::cout << jethro.collisionBox.x << ", " << jethro.collisionBox.y << " \n";
                 }
             }
-        }
         jethro.Draw();
-        DrawRectangleLinesEx({jethro.position.x, jethro.position.y, (float)(32 * zoom / playerScale), (float)(32 * zoom / playerScale)}, 1.0f, GREEN);
+        DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
         camera.target = {jethro.position.x + jethro.source.width / 2, jethro.position.y + jethro.source.height / 2};
         EndMode2D();
     }
