@@ -58,7 +58,7 @@
 # Define required environment variables
 #------------------------------------------------------------------------------------------------
 # Define target platform
-PLATFORM             ?= PLATFORM_DESKTOP
+PLATFORM             ?= PLATFORM_WEB
 
 ifeq ($(PLATFORM), PLATFORM_DESKTOP)
     TARGET_PLATFORM = PLATFORM_DESKTOP_GLFW
@@ -75,7 +75,7 @@ RAYLIB_SRC_PATH      ?= ../src
 
 # Define output directory for compiled library, defaults to src directory
 # NOTE: If externally provided, make sure directory exists
-RAYLIB_RELEASE_PATH  ?= $(RAYLIB_SRC_PATH)
+RAYLIB_RELEASE_PATH  ?= $(RAYLIB_SRC_PATH)/web
 
 # Library type used for raylib: STATIC (.a) or SHARED (.so/.dll)
 RAYLIB_LIBTYPE       ?= STATIC
@@ -183,11 +183,11 @@ endif
 ifeq ($(TARGET_PLATFORM),PLATFORM_WEB)
     ifeq ($(PLATFORM_OS), WINDOWS)
         # Emscripten required variables
-        EMSDK_PATH         ?= C:/raylib/emsdk
+        EMSDK_PATH         ?= "C:/Users/Brian Brinkley/emsdk"
         EMSCRIPTEN_PATH    ?= $(EMSDK_PATH)/upstream/emscripten
         CLANG_PATH         := $(EMSDK_PATH)/upstream/bin
-        PYTHON_PATH        := $(EMSDK_PATH)/python/3.9.2-nuget_64bit
-        NODE_PATH          := $(EMSDK_PATH)/node/20.18.0_64bit/bin
+        PYTHON_PATH        := $(EMSDK_PATH)/python/python-3.13.3-64bit
+        NODE_PATH          := $(EMSDK_PATH)/node/node-22.16.0-64bit/bin
         export PATH        := $(EMSDK_PATH);$(EMSCRIPTEN_PATH);$(CLANG_PATH);$(NODE_PATH);$(PYTHON_PATH);C:/raylib/MinGW/bin;$(PATH)
     endif
 endif

@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/install_manifest.txt")
+if(NOT EXISTS "C:/Users/Brian Brinkley/Documents/Projects/Test/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Brian Brinkley/Documents/Projects/Test/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/install_manifest.txt")
 endif()
 
-file(READ "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/install_manifest.txt" files)
+file(READ "C:/Users/Brian Brinkley/Documents/Projects/Test/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

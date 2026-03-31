@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Brian Brinkley/Documents/Projects/Test/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Brian Brinkley/Documents/Projects/Test/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/raylib-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

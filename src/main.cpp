@@ -2,7 +2,7 @@
 
 
 int main(){
-    InitWindow(GetScreenWidth(), GetScreenHeight(), "Video Game");
+    InitWindow(1920, 1080, "Video Game");
     //ToggleFullscreen();
 
 
@@ -18,12 +18,10 @@ int main(){
 
         BeginDrawing();
         ClearBackground(BLACK);
-        //jethro.Update(GetFrameTime());
         game.Draw();
         EndDrawing();
     }
 
-    //UnloadMap(map);
     CloseAudioDevice();
     CloseWindow();
     return 0;

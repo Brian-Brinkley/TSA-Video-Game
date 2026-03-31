@@ -27,9 +27,9 @@ public:
     Tileset tileset2;
     Camera2D camera = Camera2D();
     Music music = LoadMusicStream("../../../audio/Music.wav");
-    Music music2 = LoadMusicStream("../../../audio/bossmusic.wav");
-    Timer musicTimer = Timer(14.0f, true, true, [&](){PlayMusicStream(music);});
-    Timer musicTimer2 = Timer(18.0f, true, false, [&](){PlayMusicStream(music2);});
+    Music music2 = LoadMusicStream("../../../audio/Bossmusic2.wav");
+    Timer musicTimer = Timer(13.0f, true, true, [&](){PlayMusicStream(music);});
+    Timer musicTimer2 = Timer(29.0f, true, false, [&](){PlayMusicStream(music2);});
 
     Game();
     

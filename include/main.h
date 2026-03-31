@@ -1,11 +1,11 @@
 #pragma once
 #include <raylib.h>
-#define RAYGUI_IMPLEMENTATION
-#include <raygui.h>
-#define GUI_START_MENU_IMPLEMENTATION
-#include "gui_Start_Menu.h"
+//#define RAYGUI_IMPLEMENTATION
+//#include <raygui.h>
+//#define GUI_START_MENU_IMPLEMENTATION
+//#include "gui_Start_Menu.h"
 #include <iostream>
-#include <amber.h>
+//#include <amber.h>
 #include <string>
 #include <thread>
 #include <chrono>
