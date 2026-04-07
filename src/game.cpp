@@ -6,7 +6,8 @@ Game::Game() {
     camera.zoom = 2;
     camera.offset = {GetScreenWidth() / 2.0f, GetScreenHeight() / 2.0f};
     camera.rotation = 0;
-    camera.target = {jethro.position.x + jethro.source.width / 2, jethro.position.y + jethro.source.height / 2};
+    camera.target.x = static_cast<float>(int(jethro.position.x + jethro.source.width / 2));
+    camera.target.y = static_cast<float>(int(jethro.position.y + jethro.source.height / 2));
     PlayMusicStream(music);
 }
 
