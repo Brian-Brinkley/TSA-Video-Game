@@ -34,7 +34,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\Engineer2\Documents\Projects\TSA$ Video$ Game$ Design\out\build\GCC$ 15.2.0$ x86_64-w64-mingw32\_deps\raylib-subbuild\
+cmake_ninja_workdir = C$:\Users\Engineer2\Documents\Github\TSA$ Video$ Game\out\build\GCC$ 15.2.0$ x86_64-w64-mingw32\_deps\raylib-subbuild\
 
 #############################################
 # Utility command for raylib-populate
@@ -46,7 +46,7 @@ build raylib-populate: phony CMakeFiles\raylib-populate CMakeFiles\raylib-popula
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -58,7 +58,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -76,7 +76,7 @@ build CMakeFiles\raylib-populate | ${cmake_ninja_workdir}CMakeFiles\raylib-popul
 # Custom command for CMakeFiles\raylib-populate-complete
 
 build CMakeFiles\raylib-populate-complete raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-done | ${cmake_ninja_workdir}CMakeFiles\raylib-populate-complete ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-done: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-test
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done""
   DESC = Completed 'raylib-populate'
   restat = 1
 
@@ -85,7 +85,7 @@ build CMakeFiles\raylib-populate-complete raylib-populate-prefix\src\raylib-popu
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build""
   DESC = No build step for 'raylib-populate'
   restat = 1
 
@@ -94,7 +94,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build | $
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure: CUSTOM_COMMAND raylib-populate-prefix\tmp\raylib-populate-cfgcmd.txt raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure""
   DESC = No configure step for 'raylib-populate'
   restat = 1
 
@@ -103,7 +103,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-configure
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\download-raylib-populate.cmake raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-urlinfo.txt raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/verify-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/verify-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download""
   DESC = Performing download step (download, verify and extract) for 'raylib-populate'
   pool = console
   restat = 1
@@ -113,7 +113,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download 
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-build
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install""
   DESC = No install step for 'raylib-populate'
   restat = 1
 
@@ -122,7 +122,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install |
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir= -P "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir""
   DESC = Creating directories for 'raylib-populate'
   restat = 1
 
@@ -131,7 +131,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-mkdir | $
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch-info.txt raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch""
   DESC = No patch step for 'raylib-populate'
   pool = console
   restat = 1
@@ -141,7 +141,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-patch | $
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-test
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-test | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-test: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-install
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-build" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test""
   DESC = No test step for 'raylib-populate'
   restat = 1
 
@@ -150,7 +150,7 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-test | ${
 # Custom command for raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update
 
 build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update | ${cmake_ninja_workdir}raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update: CUSTOM_COMMAND raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update-info.txt raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-download
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D "C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update""
   DESC = No update step for 'raylib-populate'
   pool = console
   restat = 1
@@ -164,14 +164,14 @@ build raylib-populate-prefix\src\raylib-populate-stamp\raylib-populate-update | 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild
+# Folder: C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild
 
 build codegen: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild
+# Folder: C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild
 
 build all: phony raylib-populate
 
@@ -182,14 +182,14 @@ build all: phony raylib-populate
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\Users\Engineer2\Documents\Projects\TSA$ Video$ Game$ Design\out\build\GCC$ 15.2.0$ x86_64-w64-mingw32\_deps\raylib-subbuild\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.3.0\CMakeSystem.cmake CMakeLists.txt raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake
+build build.ninja C$:\Users\Engineer2\Documents\Github\TSA$ Video$ Game\out\build\GCC$ 15.2.0$ x86_64-w64-mingw32\_deps\raylib-subbuild\cmake_install.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.3.1\CMakeSystem.cmake CMakeLists.txt raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.3.0\CMakeSystem.cmake CMakeLists.txt raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake: phony
+build C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in C$:\Program$ Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\4.3.1\CMakeSystem.cmake CMakeLists.txt raylib-populate-prefix\tmp\raylib-populate-mkdirs.cmake: phony
 
 
 #############################################

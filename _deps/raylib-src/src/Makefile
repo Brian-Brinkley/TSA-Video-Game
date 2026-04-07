@@ -183,7 +183,7 @@ endif
 ifeq ($(TARGET_PLATFORM),PLATFORM_WEB)
     ifeq ($(PLATFORM_OS), WINDOWS)
         # Emscripten required variables
-        EMSDK_PATH         ?= "C:/Users/Brian Brinkley/emsdk"
+        EMSDK_PATH         ?= "C:/Users/Engineer2/emsdk"
         EMSCRIPTEN_PATH    ?= $(EMSDK_PATH)/upstream/emscripten
         CLANG_PATH         := $(EMSDK_PATH)/upstream/bin
         PYTHON_PATH        := $(EMSDK_PATH)/python/python-3.13.3-64bit

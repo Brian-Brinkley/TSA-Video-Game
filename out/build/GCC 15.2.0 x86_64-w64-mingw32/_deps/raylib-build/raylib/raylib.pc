@@ -1,4 +1,4 @@
-prefix=C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/install/GCC 15.2.0 x86_64-w64-mingw32
+prefix=C:/Users/Engineer2/Documents/Github/TSA Video Game/out/install/GCC 15.2.0 x86_64-w64-mingw32
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

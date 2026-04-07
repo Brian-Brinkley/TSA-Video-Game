@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src
+# Install script for directory: C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/install/GCC 15.2.0 x86_64-w64-mingw32")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/install/GCC 15.2.0 x86_64-w64-mingw32")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/cmake_install.cmake")
+  include("C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

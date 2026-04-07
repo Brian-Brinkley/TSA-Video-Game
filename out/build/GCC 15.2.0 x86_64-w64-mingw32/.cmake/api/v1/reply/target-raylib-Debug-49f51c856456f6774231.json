@@ -209,40 +209,40 @@
 			[
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/include"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/gui"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/gui"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/audio"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/audio"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/graphics"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/graphics"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/external/raylib-tileson"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/external/raylib-tileson"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/external/tileson"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/external/tileson"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/level"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/level"
 				},
 				{
 					"backtrace" : 21,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
 				},
 				{
 					"backtrace" : 24,
 					"isSystem" : true,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/include"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/include"
 				}
 			],
 			"language" : "C",
@@ -285,7 +285,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/install/GCC 15.2.0 x86_64-w64-mingw32"
+			"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/install/GCC 15.2.0 x86_64-w64-mingw32"
 		}
 	},
 	"interfaceCompileDependencies" : 

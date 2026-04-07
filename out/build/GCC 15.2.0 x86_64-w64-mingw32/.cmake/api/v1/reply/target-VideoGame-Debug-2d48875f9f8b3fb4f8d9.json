@@ -128,39 +128,39 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/include"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/gui"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/gui"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/audio"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/audio"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/graphics"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/graphics"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/external/raylib-tileson"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/external/raylib-tileson"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/external/tileson"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/external/tileson"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/level"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/level"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/include"
+					"path" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/include"
 				}
 			],
 			"language" : "CXX",

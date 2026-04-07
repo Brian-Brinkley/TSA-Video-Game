@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32"
+			"value" : "c:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "0"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/install/GCC 15.2.0 x86_64-w64-mingw32"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/install/GCC 15.2.0 x86_64-w64-mingw32"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1779,7 +1779,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1863,7 +1863,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -2007,7 +2007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -2183,7 +2183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32"
 		},
 		{
 			"name" : "VideoGame_IS_TOP_LEVEL",
@@ -2207,7 +2207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game"
 		},
 		{
 			"name" : "WITH_PIC",
@@ -2243,7 +2243,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/install/GCC 15.2.0 x86_64-w64-mingw32"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/install/GCC 15.2.0 x86_64-w64-mingw32"
 		},
 		{
 			"name" : "raylib_BINARY_DIR",
@@ -2255,7 +2255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib"
 		},
 		{
 			"name" : "raylib_DIR",
@@ -2303,7 +2303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
+			"value" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32/_deps/raylib-src/src"
 		}
 	],
 	"kind" : "cache",
