@@ -21,11 +21,9 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level1Collisions, 'y');
             if(CheckCollisionRecs(doorRec, jethro.collisionBox) && IsKeyDown(KEY_E)) {
                 level1Running = false;
-                jethro.position = {16.75f * tileSize * zoom, 2.0f * tileSize * zoom};
+                jethro.position = {28 * tileSize * zoom, 18 * tileSize * zoom};
+                //jethro.position = {16.75f * tileSize * zoom, 2.0f * tileSize * zoom};
                 InitLevel2();
-                while(!level2Ready) {
-                    std::cout << "Loading level 2... \n";
-                }
                 level2Running = true;
             }
         }
@@ -47,12 +45,12 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level2Collisions, 'y');
         }
     
-    if(!Vector2Equals(jethro.directionState, jethro.direction)) {
-        jethro.AnimationCheck();
-        jethro.directionState = jethro.direction;
+        if(!Vector2Equals(jethro.directionState, jethro.direction)) {
+            jethro.AnimationCheck();
+            jethro.directionState = jethro.direction;
+        }
+        animationTimer.Update();
     }
-    animationTimer.Update();
-}
 }
 
 void Game::CollisionCheck(std::vector<Rectangle> collision, char axis) {
@@ -84,13 +82,15 @@ void Game::Draw() {
         }
         else if(level2Running) {
             tileset2.DrawTileMap(level2Tileset, level2Data, tileSize, tileSize, tileColumns2, zoom);
-            for(auto &r : level2Collisions) {
+            DrawTextureEx(powerCell, {28 * tileSize * zoom, 18 * tileSize * zoom}, 0, zoom, WHITE);
+            /*for(auto &r : level2Collisions) {
                 DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
-            }
+            }*/
         }
         jethro.Draw();
-        DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
-        camera.target = {jethro.position.x + jethro.source.width / 2, jethro.position.y + jethro.source.height / 2};
+        //DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
+        camera.target = {static_cast<float>(int(jethro.position.x + jethro.source.width / 2)),
+            static_cast<float>(int(jethro.position.y + jethro.source.height / 2))};
         EndMode2D();
     }
 }

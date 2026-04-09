@@ -23,6 +23,7 @@ public:
 
     Texture2D level1Tileset = LoadTexture("../../../graphics/tiles/WallTilesComplete.png");
     Texture2D level2Tileset = LoadTexture("../../../graphics/tiles/Level2Tileset.png");
+    Texture2D powerCell = LoadTexture("../../../graphics/tiles/PowerCell.png");
 
     Tileset tileset;
     Tileset tileset2;
@@ -226,4 +227,7 @@ private:
     int tileColumns2 = level2Tileset.width / tileSize;
 
     Rectangle doorRec = {zoom * 43, zoom * 5, zoom * 11, zoom * 18};
+
+    Rectangle powerCellRec = {zoom * 28, zoom * 18, zoom * 32, zoom * 32};
+
 };
