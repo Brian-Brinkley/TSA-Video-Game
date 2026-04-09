@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Projects\TSA Video Game Design\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild"
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild" -B"C:\Users\Engineer2\Documents\Github\TSA Video Game\out\build\GCC 15.2.0 x86_64-w64-mingw32\_deps\raylib-subbuild"
   description = Re-running CMake...
   generator = 1
 

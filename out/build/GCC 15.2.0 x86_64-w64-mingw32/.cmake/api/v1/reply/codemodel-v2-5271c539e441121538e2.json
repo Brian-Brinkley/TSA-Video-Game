@@ -193,21 +193,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VideoGame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VideoGame-Debug-e5283f75943a433f6f54.json",
+					"jsonFile" : "target-VideoGame-Debug-2d48875f9f8b3fb4f8d9.json",
 					"name" : "VideoGame",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@9de86fbe87260ae8e66c",
-					"jsonFile" : "target-glfw-Debug-3fbc87ae7be2dd1954d5.json",
+					"jsonFile" : "target-glfw-Debug-8a492dfaa1ce005d686e.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "raylib::@4dc3a4644cf4ded08c01",
-					"jsonFile" : "target-raylib-Debug-ee7f36c80e456fd76733.json",
+					"jsonFile" : "target-raylib-Debug-49f51c856456f6774231.json",
 					"name" : "raylib",
 					"projectIndex" : 1
 				},
@@ -231,8 +231,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design/out/build/GCC 15.2.0 x86_64-w64-mingw32",
-		"source" : "C:/Users/Engineer2/Documents/Projects/TSA Video Game Design"
+		"build" : "C:/Users/Engineer2/Documents/Github/TSA Video Game/out/build/GCC 15.2.0 x86_64-w64-mingw32",
+		"source" : "C:/Users/Engineer2/Documents/Github/TSA Video Game"
 	},
 	"version" : 
 	{

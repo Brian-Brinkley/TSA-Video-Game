@@ -7,6 +7,6 @@ void Sprite::Draw() {
 }
 
 void Sprite::Move(double dt) {
-    position.x += (direction.x * speed * dt);
-    position.y += (direction.y * speed * dt);
+    position.x += static_cast<float>(int(direction.x * speed * dt));
+    position.y += static_cast<float>(int(direction.y * speed * dt));
 }
