@@ -6,14 +6,17 @@ Game::Game() {
     camera.zoom = 2;
     camera.offset = {GetScreenWidth() / 2.0f, GetScreenHeight() / 2.0f};
     camera.rotation = 0;
-    camera.target.x = static_cast<float>(int(jethro.position.x + jethro.source.width / 2));
-    camera.target.y = static_cast<float>(int(jethro.position.y + jethro.source.height / 2));
+    camera.target.x = std::round((jethro.position.x + jethro.source.width / 2) * 3) / 3;
+    camera.target.y = std::round((jethro.position.y + jethro.source.height / 2) * 3) / 3;
     PlayMusicStream(music);
 }
 
 void Game::Update(float deltaTime) {
     if(running) {
         jethro.Update(deltaTime, speed);
+        camera.target = {std::round((jethro.position.x + jethro.source.width / 2) * 3) / 3,
+            std::round((jethro.position.y + jethro.source.height / 2) * 3) / 3};
+    
         if(level1Running) {
             musicTimer.Update();
             UpdateMusicStream(music);
@@ -37,6 +40,7 @@ void Game::Update(float deltaTime) {
                 PlayMusicStream(music2);
             }
             UpdateMusicStream(music2);
+
             jethro.collisionBox.x += 2 * jethro.scale;
             jethro.collisionBox.y += 6 * jethro.scale;
             jethro.collisionBox.width = (jethro.source.width - 12) * jethro.scale;
@@ -44,7 +48,7 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level2Collisions, 'x');
             CollisionCheck(level2Collisions, 'y');
         }
-    
+
         if(!Vector2Equals(jethro.directionState, jethro.direction)) {
             jethro.AnimationCheck();
             jethro.directionState = jethro.direction;
@@ -89,8 +93,6 @@ void Game::Draw() {
         }
         jethro.Draw();
         //DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
-        camera.target = {static_cast<float>(int(jethro.position.x + jethro.source.width / 2)),
-            static_cast<float>(int(jethro.position.y + jethro.source.height / 2))};
         EndMode2D();
     }
 }

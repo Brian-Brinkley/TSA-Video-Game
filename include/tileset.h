@@ -1,5 +1,6 @@
 #pragma once
 #include "raylib.h"
+#include <cmath>
 #include <vector>
 
 class Tileset {
