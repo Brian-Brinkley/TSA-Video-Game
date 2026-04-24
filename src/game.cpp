@@ -14,9 +14,7 @@ Game::Game() {
 void Game::Update(float deltaTime) {
     if(running) {
         jethro.Update(deltaTime, speed);
-        camera.target = {std::round((jethro.position.x + jethro.source.width / 2) * 3) / 3,
-            std::round((jethro.position.y + jethro.source.height / 2) * 3) / 3};
-    
+        
         if(level1Running) {
             musicTimer.Update();
             UpdateMusicStream(music);
@@ -24,8 +22,8 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level1Collisions, 'y');
             if(CheckCollisionRecs(doorRec, jethro.collisionBox) && IsKeyDown(KEY_E)) {
                 level1Running = false;
-                jethro.position = {28 * tileSize * zoom, 18 * tileSize * zoom};
-                //jethro.position = {16.75f * tileSize * zoom, 2.0f * tileSize * zoom};
+                //jethro.position = {28 * tileSize * zoom, 18 * tileSize * zoom};
+                jethro.position = {16.75f * tileSize * zoom, 2.0f * tileSize * zoom};
                 InitLevel2();
                 level2Running = true;
             }
@@ -34,26 +32,37 @@ void Game::Update(float deltaTime) {
             //InitLevel2();
             /*while(!level2Ready) {
                 std::cout << "Loading level 2... \n";
-            }*/
+                }*/
             if(!musicTimer2.active) {
                 musicTimer2.Activate();
                 PlayMusicStream(music2);
             }
             UpdateMusicStream(music2);
-
+            
             jethro.collisionBox.x += 2 * jethro.scale;
             jethro.collisionBox.y += 6 * jethro.scale;
             jethro.collisionBox.width = (jethro.source.width - 12) * jethro.scale;
             jethro.collisionBox.height = (jethro.source.height - 12) * jethro.scale;
             CollisionCheck(level2Collisions, 'x');
             CollisionCheck(level2Collisions, 'y');
+            
+            if(CheckCollisionRecs(powerCellRec, jethro.collisionBox) && IsKeyDown(KEY_E)) {
+                std::cout << "Game Won \n";
+                level2Running = false;
+                running = false;
+                return;
+            }
         }
-
+        
+        camera.target = {std::round((jethro.position.x + jethro.source.width * playerScale / 2) * 3) / 3,
+            std::round((jethro.position.y + jethro.source.height / 2) * 3) / 3};
+            
         if(!Vector2Equals(jethro.directionState, jethro.direction)) {
             jethro.AnimationCheck();
             jethro.directionState = jethro.direction;
         }
         animationTimer.Update();
+        return;
     }
 }
 
@@ -89,11 +98,16 @@ void Game::Draw() {
             DrawTextureEx(powerCell, {28 * tileSize * zoom, 18 * tileSize * zoom}, 0, zoom, WHITE);
             /*for(auto &r : level2Collisions) {
                 DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
-            }*/
+                }*/
+            DrawRectangleLinesEx({powerCellRec.x, powerCellRec.y, powerCellRec.width, powerCellRec.height}, 2, GREEN);
         }
         jethro.Draw();
         //DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
         EndMode2D();
+    }
+    else {
+        MeasureText("You Won!", 80);
+        DrawText("You Won!" , (GetScreenWidth() - MeasureText("You Won!", 80)) / 2, (GetScreenHeight() - 80) / 2, 80, WHITE);
     }
 }
 

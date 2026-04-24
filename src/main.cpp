@@ -2,7 +2,13 @@
 
 
 int main(){
+#ifdef PLATFORM_DESKTOP
     InitWindow(1920, 1080, "Video Game");
+#endif
+
+#ifdef PLATFORM_WEB
+    InitWindow(1600, 900, "Video Game");
+#endif
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     SetWindowSize(GetScreenWidth(), GetScreenHeight());

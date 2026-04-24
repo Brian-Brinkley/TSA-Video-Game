@@ -228,6 +228,6 @@ private:
 
     Rectangle doorRec = {zoom * 43, zoom * 5, zoom * 11, zoom * 18};
 
-    Rectangle powerCellRec = {zoom * 28, zoom * 18, zoom * 32, zoom * 32};
+    Rectangle powerCellRec = {zoom * 898, zoom * 18 * tileSize, zoom * 13, zoom * 14};
 
 };
