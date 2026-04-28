@@ -119,9 +119,9 @@ void Game::Draw() {
         DrawTextEx(gameFont, "Press E to start", {(GetScreenWidth() - MeasureTextEx(gameFont, "Press E to start", 30, 2).x) / 2, (float)((GetScreenHeight() + 40) / 2)}, 30, 2, WHITE);
     #endif
     #ifdef PLATFORM_WEB
-        DrawRectangleRounded({15, 15, GetScreenWidth() - 30.0f, GetScreenHeight() - 30.0f}, 0.25f, 8, Fade(DARKGRAY, 0.8f));
-        DrawTextEx(gameFont, "Use WASD to move, E to interact", {(1280 - MeasureTextEx(gameFont, "Use WASD to move, E to interact", 40, 2).x) / 2, (float)((900 - 40) / 2)}, 40, 3, WHITE);
-        DrawTextEx(gameFont, "Press E to start", {(1280 - MeasureTextEx(gameFont, "Press E to start", 30, 2).x) / 2, (float)((900 + 40) / 2)}, 30, 2, WHITE);
+        DrawRectangleRounded({15, 15, 1535 - 30.0f, 862 - 30.0f}, 0.25f, 8, Fade(DARKGRAY, 0.8f));
+        DrawTextEx(gameFont, "Use WASD to move, E to interact", {(1600 - MeasureTextEx(gameFont, "Use WASD to move, E to interact", 40, 2).x) / 2, (float)((900 - 40) / 2)}, 40, 3, WHITE);
+        DrawTextEx(gameFont, "Press E to start", {(1600 - MeasureTextEx(gameFont, "Press E to start", 30, 2).x) / 2, (float)((900 + 40) / 2)}, 30, 2, WHITE);
     #endif
         if(IsKeyDown(KEY_E)) {
             keyPressed = true;
