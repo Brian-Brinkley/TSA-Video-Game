@@ -15,6 +15,7 @@ public:
     bool level1Running = true;
     bool level2Running = false;
     bool level2Ready = false;
+    bool keyPressed = false;
 
     float speed = 300;
 

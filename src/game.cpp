@@ -13,13 +13,11 @@ Game::Game() {
 
 void Game::Update(float deltaTime) {
     if(running) {
-        jethro.Update(deltaTime, speed);
+        if(keyPressed) {
+            jethro.Update(deltaTime, speed);
+        }
         
         if(level1Running) {
-            while(!IsKeyPressed(GetKeyPressed())) {
-                DrawRectangleRounded({15, 15, GetScreenWidth() - 30.0f, GetScreenHeight() - 30.0f}, 0.5f, 6, Fade(DARKGRAY, 0.5f));
-                DrawTextEx(gameFont, "Controls: WASD to Move, E to Interact", {GetScreenWidth() / 2.0f - MeasureTextEx(gameFont, "Controls: WASD to Move, E to Interact", 30, 2).x / 2, GetScreenHeight() / 2.0f - 15}, 30, 2, WHITE);
-            }
             musicTimer.Update();
             UpdateMusicStream(music);
             CollisionCheck(level1Collisions, 'x');
@@ -113,6 +111,14 @@ void Game::Draw() {
         std::this_thread::sleep_for(std::chrono::milliseconds(1500));
         MeasureText("You Won!", 80);
         DrawTextEx(gameFont, "You Won!", {(GetScreenWidth() - MeasureTextEx(gameFont, "You Won!", 80, 2).x) / 2, (float)((GetScreenHeight() - 80) / 2)}, 80, 3, WHITE);
+    }
+    if(!keyPressed) {
+        DrawRectangleRounded({15, 15, GetScreenWidth() - 30.0f, GetScreenHeight() - 30.0f}, 0.25f, 8, Fade(DARKGRAY, 0.8f));
+        DrawTextEx(gameFont, "Use WASD to move, E to interact", {(GetScreenWidth() - MeasureTextEx(gameFont, "Use WASD to move, E to interact", 40, 2).x) / 2, (float)((GetScreenHeight() - 40) / 2)}, 40, 3, WHITE);
+        DrawTextEx(gameFont, "Press E to start", {(GetScreenWidth() - MeasureTextEx(gameFont, "Press E to start", 30, 2).x) / 2, (float)((GetScreenHeight() + 40) / 2)}, 30, 2, WHITE);
+        if(IsKeyDown(KEY_E)) {
+            keyPressed = true;
+        }
     }
 }
 
