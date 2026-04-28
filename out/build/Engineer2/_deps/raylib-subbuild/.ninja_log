@@ -1,0 +1,21 @@
+# ninja log v7
+3	153	7989991270783445	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	85ba74527003a0ac
+3	153	7989991270783445	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	85ba74527003a0ac
+154	31077	7989991579919750	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	197eabccf50a49fc
+154	31077	7989991579919750	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	197eabccf50a49fc
+31078	31256	7989991581791057	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	45448fbff18a1254
+31078	31256	7989991581791057	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	45448fbff18a1254
+31256	31416	7989991583380536	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	b5f9c4ab83751c38
+31256	31416	7989991583380536	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	b5f9c4ab83751c38
+31416	31539	7989991584634800	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	4b938c4b07d3784a
+31416	31539	7989991584634800	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	4b938c4b07d3784a
+31539	31676	7989991585989742	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	41f79d2916cc09f1
+31539	31676	7989991585989742	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	41f79d2916cc09f1
+31676	31814	7989991587374022	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	dd666d8d343f30b9
+31676	31814	7989991587374022	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	dd666d8d343f30b9
+31815	31964	7989991588848654	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	8f15063b577e9138
+31815	31964	7989991588848654	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	8f15063b577e9138
+31964	32177	7989991591006213	CMakeFiles/raylib-populate-complete	124ec614d9c220ba
+31964	32177	7989991591006213	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	124ec614d9c220ba
+31964	32177	7989991591006213	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	124ec614d9c220ba
+31964	32177	7989991591006213	C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	124ec614d9c220ba

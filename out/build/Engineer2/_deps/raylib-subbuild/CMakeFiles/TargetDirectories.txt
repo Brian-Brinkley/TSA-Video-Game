@@ -1,0 +1,3 @@
+C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Engineer2/Documents/Github/TSA-Video-Game/out/build/Engineer2/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir

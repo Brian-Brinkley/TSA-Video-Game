@@ -24,6 +24,7 @@ public:
     Texture2D level1Tileset = LoadTexture("../../../graphics/tiles/WallTilesComplete.png");
     Texture2D level2Tileset = LoadTexture("../../../graphics/tiles/Level2Tileset.png");
     Texture2D powerCell = LoadTexture("../../../graphics/tiles/PowerCell.png");
+    Font gameFont = LoadFont("../../../font/Snowbell.ttf");
 
     Tileset tileset;
     Tileset tileset2;

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
-project(VideoGame VERSION 0.1.0 LANGUAGES CXX)
+project(Videogame VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
@@ -29,7 +29,6 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
   endif()
 endif()
 
+add_executable(${PROJECT_NAME} ${SOURCES} app.rc)
 
-add_executable(VideoGame ${SOURCES})
-
-target_link_libraries(VideoGame raylib)
+target_link_libraries(${PROJECT_NAME} raylib)

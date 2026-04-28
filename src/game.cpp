@@ -106,8 +106,9 @@ void Game::Draw() {
         EndMode2D();
     }
     else {
+        std::this_thread::sleep_for(std::chrono::milliseconds(1500));
         MeasureText("You Won!", 80);
-        DrawText("You Won!" , (GetScreenWidth() - MeasureText("You Won!", 80)) / 2, (GetScreenHeight() - 80) / 2, 80, WHITE);
+        DrawTextEx(gameFont, "You Won!", {(GetScreenWidth() - MeasureTextEx(gameFont, "You Won!", 80, 2).x) / 2, (float)((GetScreenHeight() - 80) / 2)}, 80, 3, WHITE);
     }
 }
 

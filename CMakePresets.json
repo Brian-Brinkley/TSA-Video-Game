@@ -2,7 +2,7 @@
     "version": 8,
     "configurePresets": [
         {
-            "name": "GCC 15.2.0 x86_64-w64-mingw32",
+            "name": "Engineer2",
             "displayName": "GCC 15.2.0 x86_64-w64-mingw32",
             "description": "Using compilers: C = C:\\Users\\Engineer2\\scoop\\apps\\gcc\\current\\bin\\gcc.exe, CXX = C:\\Users\\Engineer2\\scoop\\apps\\gcc\\current\\bin\\g++.exe",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
