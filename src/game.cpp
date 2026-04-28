@@ -16,6 +16,10 @@ void Game::Update(float deltaTime) {
         jethro.Update(deltaTime, speed);
         
         if(level1Running) {
+            while(!IsKeyPressed(GetKeyPressed())) {
+                DrawRectangleRounded({15, 15, GetScreenWidth() - 30.0f, GetScreenHeight() - 30.0f}, 0.5f, 6, Fade(DARKGRAY, 0.5f));
+                DrawTextEx(gameFont, "Controls: WASD to Move, E to Interact", {GetScreenWidth() / 2.0f - MeasureTextEx(gameFont, "Controls: WASD to Move, E to Interact", 30, 2).x / 2, GetScreenHeight() / 2.0f - 15}, 30, 2, WHITE);
+            }
             musicTimer.Update();
             UpdateMusicStream(music);
             CollisionCheck(level1Collisions, 'x');
