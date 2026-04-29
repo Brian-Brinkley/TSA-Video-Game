@@ -49,7 +49,6 @@ void Game::Update(float deltaTime) {
             CollisionCheck(level2Collisions, 'y');
             
             if(CheckCollisionRecs(powerCellRec, jethro.collisionBox) && IsKeyDown(KEY_E)) {
-                std::cout << "Game Won \n";
                 level2Running = false;
                 running = false;
                 return;
@@ -101,14 +100,14 @@ void Game::Draw() {
             /*for(auto &r : level2Collisions) {
                 DrawRectangleLinesEx({r.x, r.y, r.width, r.height}, 1.0f, RED);
                 }*/
-            DrawRectangleLinesEx({powerCellRec.x, powerCellRec.y, powerCellRec.width, powerCellRec.height}, 2, GREEN);
+            //DrawRectangleLinesEx({powerCellRec.x, powerCellRec.y, powerCellRec.width, powerCellRec.height}, 2, GREEN);
         }
         jethro.Draw();
         //DrawRectangleLinesEx({jethro.collisionBox.x, jethro.collisionBox.y, jethro.collisionBox.width, jethro.collisionBox.height}, 1.0f, GREEN);
         EndMode2D();
     }
     else {
-        std::this_thread::sleep_for(std::chrono::milliseconds(1500));
+        std::this_thread::sleep_for(std::chrono::milliseconds(800));
         MeasureText("You Won!", 80);
         DrawTextEx(gameFont, "You Won!", {(GetScreenWidth() - MeasureTextEx(gameFont, "You Won!", 80, 2).x) / 2, (float)((GetScreenHeight() - 80) / 2)}, 80, 3, WHITE);
     }
